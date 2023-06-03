@@ -4,7 +4,7 @@ import time
 import matplotlib.pyplot as plt
 
 def main():
-    st.header("sentimentAnalysisV2 Duygu Analizi Uygulaması")
+    st.header("sentimentAnalysisV2 Metinden Duygu Analizi Uygulaması")
     st.warning("Girdiğiniz metinler uzun cümlelerden ve noktalama işareleri olmamasından dolayı yanlış sonuçlar verebilir")
     # Sekmeleri oluşturma
     tabs = ["Metin Yazma"]
