@@ -9,7 +9,7 @@ import re
 
 def predict_sentiment():
     # Veri okuma
-    data = pd.read_csv("../NLPDataSet.tsv", delimiter="\t", quoting=3)
+    data = pd.read_csv("NLPDataSet.tsv", delimiter="\t", quoting=3)
 
     # Metin ön işleme işlemleri
     def process(review):
