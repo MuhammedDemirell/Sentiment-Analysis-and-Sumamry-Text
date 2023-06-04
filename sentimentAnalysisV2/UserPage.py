@@ -2,6 +2,8 @@ import streamlit as st
 import SentimentAnalysis as ssa
 import time
 import matplotlib.pyplot as plt
+import nltk
+nltk.download('stopwords')
 
 def main():
     st.header("sentimentAnalysisV2 Metinden Duygu Analizi Uygulaması")
