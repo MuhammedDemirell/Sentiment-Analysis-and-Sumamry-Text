@@ -3,6 +3,8 @@ import TextSummary as ts
 import SummarySentimentAnalysis as ssa
 import time
 import matplotlib.pyplot as plt
+import nltk
+nltk.download('stopwords')
 
 def main():
     st.header("summarySentimentAnalysisAlgorithms Metin Özet ve Duygu Analizi Uygulaması")
