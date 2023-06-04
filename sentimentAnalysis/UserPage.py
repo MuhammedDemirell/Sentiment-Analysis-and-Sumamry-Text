@@ -2,6 +2,8 @@ import time
 import streamlit as st
 import sys
 import time
+import nltk
+nltk.download('stopwords')
 
 sys.path.append("..")
 import MicrophoneRecognitions as mr
