@@ -23,7 +23,7 @@ def createTextSummary():
     # Initialize stemmer
     stemmer = PorterStemmer()
 
-    # Tokenize and stem the words for TF-IDF
+    
     wordTokens = word_tokenize(text)
     filteredWords = [stemmer.stem(word) for word in wordTokens if word.lower() not in stopwords.words('english')]
     processedText = ' '.join(filteredWords)
