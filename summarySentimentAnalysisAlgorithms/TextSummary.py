@@ -51,7 +51,7 @@ def createTextSummary():
             sentenceScores[sentence] = score
         i += 1
 
-    # Get the top 5 sentences with the highest scores
+    # Get the top 3 sentences with the highest scores
     summarySentences = heapq.nlargest(3, sentenceScores, key=sentenceScores.get)
     summary = ' '.join(summarySentences)
     filePathSummary = "summaryAlgorithmsText.txt"
