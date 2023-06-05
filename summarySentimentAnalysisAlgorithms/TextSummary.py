@@ -56,9 +56,7 @@ def createTextSummary():
     summary = ' '.join(summarySentences)
     filePathSummary = "summaryAlgorithmsText.txt"
 
-    # Remove punctuation and unnecessary elements from the summary
-    # summary = re.sub(r'[^\w\s]', '', summary)
-
+ 
     # Write the summary to a file
     with open(filePathSummary, "w", encoding='utf-8') as f:
         f.write(summary)
